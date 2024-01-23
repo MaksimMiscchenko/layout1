@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+ .nav-dark{
+  background: #fff;
+}
+.navbar-brand{
+  font-size: 27px;
+  text-transform: uppercase;
+  padding: 40px 95px 10px 51px;
+  background: url(../images/logo.png) 0 50% no-repeat;
+  margin-top: 11px;
+  margin-bottom: 13px;
+}
+.nav-link{
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+.slider-block{
+  margin: 0 auto;
+}
+.project-block{
+  text-align: center;
+  padding: 0 200px;
+  margin: 100px 0 50px 0;
+}
+.project-block h3{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;  
+}
+.team{
+  padding: 0 250px;
+  margin: 70px 0 50px 0
+}
+.team h4{
+    text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px; 
+}
+.animation-block {
+  margin-top: 80px;
+  text-align: center;
+}
+.animation-block ul{
+  margin: 0;
+  padding: 0;
+}
+.animation-block li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  width: 270px;
+  position: relative;
+  margin-right: 25px;
+}
+.animation-block li:last-child{
+  margin-right: 0;
+}
+.animation-block img{
+  max-width: 100%;
+  display: block;
+}
+.animation-block h5{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 18px;
+}
+.animation-block p{
+  text-align: center;
+  font-size: 13px;
+  margin-top: 0;
+}
+.div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(144, 144, 144, 0.7);
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  -webkit-transform: scale(0) rotate(90deg);
+      -ms-transform: scale(0) rotate(90deg);
+          transform: scale(0) rotate(90deg);
+  padding: 0 26px;
+  -webkit-transition: all .6s;
+  -o-transition: all .6s;
+  transition: all .6s;
+}
+.div a{
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    margin-top: 30px;
+    opacity: 0.7;
+}
+.div h4{
+  margin-bottom: 13px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.div p{
+  line-height: 24px;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.animation-block li:hover .div {
+  display: block;
+  opacity: 1;
+  -webkit-transform: scale(1) rotate(0);
+      -ms-transform: scale(1) rotate(0);
+          transform: scale(1) rotate(0);
+}
+.animation-block:hover h5{
+  color: #ccc;
+}
+.tw{
+  background-image: url(../images/ic-tw.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: #0f1010;
+}
+.fb{
+  background-image: url(../images/ic-fb.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: #0f1010;
+}
+.glg{
+  background-image: url(../images/ic-glg.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: #0f1010;
+}
+footer{
+  background: #ccc
+}
+.footer{
+  padding-bottom: 50px;
+  height: 40px; 
+  text-align: center;
+  background: url(../images/logo.png) 50% no-repeat;
+}
+.footer p{
+  padding-top: 40px;
+}
+.our-comp{
+  margin: 70px 0;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #ccc;
+    background: #ccc
